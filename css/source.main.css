@@ -1,6 +1,6 @@
 html {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: rebeccapurple;
+    background-color: white;
 }
 
 body {
@@ -8,11 +8,11 @@ body {
     width: 65%;
 }
 
-div,
+/* div,
 ul,
 li {
     border: 1px solid white;
-}
+} */
 
 header {
     background-color: black;
@@ -45,6 +45,19 @@ header div.logo,
 header div.banner {
     margin: 0;
     padding: 0;
+}   
+
+header div.header-content {
+    position: relative;
+}
+
+header div.logo {
+    height: 50px;
+}
+
+header div.content {
+    margin-left: 300px;
+    float: bottom;
 }
 
 header img.banner {
@@ -54,9 +67,15 @@ header img.banner {
 }
 
 header img.logo {
+    padding-left: 10px;
+    padding-right: 10px;
+    left: 20px;
+    top: 150px;
+    position: absolute;
     width: fit-content;
     height: 75px;
     object-fit: cover;
+    background-color: black;
 }
 
 header h4.title {
@@ -84,6 +103,7 @@ header div.search div.search-icon {
     align-items: center;
     border: 2px solid white;
     border-radius: 0px 10px 10px 0px;
+    color: rgb(142, 142, 142);
 }
 
 header div.search div.search-box {
@@ -111,21 +131,84 @@ nav div.navbar-button {
 }
 
 nav div.navbar-button a {
-    margin: 0px 20px 0px 20px;
+    padding: 0px 20px 0px 20px;
     height: 50px;
     display: flex;
-    align-items: center;
     text-align: center;
+    align-items: center;
 }
 
-nav div.navbar-button .sub-navbar .sub-nav-content {
+
+nav div.navbar-button .sub-navbar:hover {
+    background-color: white;
+}
+
+nav div.navbar-button .sub-navbar a.title {
+    color: black;
+}
+
+nav div.navbar-button .sub-navbar:hover a.title {
+    color: red;
+}
+
+nav div.navbar-button .sub-navbar .sub-nav-content-grid {
     position: absolute;
     width: 65%;
     margin: 0;
     left: calc((100% - 65%)/2);
     display: none;
+    height: fit-content;
 }
 
-nav div.navbar-button .sub-navbar:hover .sub-nav-content {
+
+nav div.navbar-button .sub-navbar:hover .sub-nav-content-grid {
     display: flex;
+}
+
+nav div.navbar-button .sub-navbar .sub-nav-content {
+    background-color: white;
+    padding: 0;
+    height: calc(205.5px + 70px);
+    border: 1px solid rgb(207, 207, 207);
+
+}
+
+nav div.navbar-button .sub-navbar .cards {
+    border-radius: 10px;
+    margin: 5px 5px 5px 0px;
+    height: calc(205.5px + 50px);
+}
+
+nav div.navbar-button .sub-navbar .card-news {
+    padding: 0;
+    margin: 0px 30px;
+    height: calc(205.5px + 50px);
+}
+
+nav div.navbar-button .sub-navbar .card-news div {
+    height: 205.5px;
+    position: static;
+}
+
+nav div.navbar-button .sub-navbar .card-news p {
+    text-align: left;
+    padding: 7.5px 0px 0px 5px;
+    color: black;
+}
+
+nav div.navbar-button .sub-navbar img.news-image {
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+}
+
+nav div.navbar-button .sub-navbar .cards:hover p {
+    color: red;
+}
+
+
+nav div.navbar-button .sub-navbar .cards:hover {
+    
+    color: red;
+    box-shadow: 1px 1px 1px rgb(207, 207, 207);
 }
