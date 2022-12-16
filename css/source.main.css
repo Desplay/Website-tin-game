@@ -1,18 +1,20 @@
 html {
     font-family: Arial, Helvetica, sans-serif;
     background-color: rebeccapurple;
+    height: 300rem;
 }
 
 body {
-    margin: auto;
+    margin: 0 auto !important;
     width: 65%;
+
 }
 
-div,
+/* div,
 ul,
 li {
     border: 1px solid white;
-}
+} */
 
 header {
     background-color: black;
@@ -23,7 +25,7 @@ nav {
 }
 
 section {
-    background-color: blue;
+    background-color: rgb(19, 190, 242);
 }
 
 ul {
@@ -128,4 +130,105 @@ nav div.navbar-button .sub-navbar .sub-nav-content {
 
 nav div.navbar-button .sub-navbar:hover .sub-nav-content {
     display: flex;
+}
+
+/* ------------------------------------------------------------------------------------ */
+
+section.container-fluid {
+    padding: 0 !important;
+    left: 0;
+}
+
+.top-content {
+    width: 100%;
+    float: left;
+    position: relative;
+    display: block;
+    margin-top: 3rem;
+    border: 0;
+}
+
+
+.top-content img {
+    width: 100%;
+    height: 1150px;
+    float: left;
+
+}
+
+.top-content h2 {
+    color: #fff;
+    font: 700 50px Tahoma;
+    display: block;
+    width: 100%;
+    float: left;
+    height: 250px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    border: 0;
+    margin: 0;
+    padding: 1rem;
+    padding-top: 4rem;
+/* 
+    background: -moz-linear-gradient(bottm,rgba(255,255,255,0) 0,#222 100%);
+    background: -webkit-linear-gradient(bottom,rgba(255,255,255,0) 0,#e34b4b 100%); */
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0, #040101 100%);
+}
+
+.Slideshow{
+    display: none;
+}
+
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 50px;
+    transition: 0.6s ease;
+
+}
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.prev{
+    left: 0;
+    border-radius:0 3px 3px 0;
+}
+
+.prev:hover,
+.next:hover {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+
+.dot {
+    
+    cursor: pointer;
+    height: 25px;
+    width: 25px;
+    margin: 30px 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.active,
+.dot:hover {
+    background-color: #717171;
+}
+
+.dot-bar{
+    text-align: center;
+    background-color: #fff;
 }
