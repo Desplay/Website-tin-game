@@ -6,24 +6,34 @@ html {
 body {
     margin: auto;
     width: 65%;
+    height: 3000px;
 }
 
 div,
 ul,
 li {
-    border: 1px solid white;
+    border: 1px solid black;
 }
 
 header {
     background-color: black;
+    z-index: 1;
+    position: relative;
 }
 
 nav {
     background-color: #1ED760;
+    z-index: 3;
+    position: relative;
 }
 
 section {
-    background-color: blue;
+    z-index: 2;
+    position: relative;
+}
+
+footer {
+    background-color: aqua;
 }
 
 ul {
@@ -45,7 +55,7 @@ header div.logo,
 header div.banner {
     margin: 0;
     padding: 0;
-}   
+}
 
 header div.header-content {
     position: relative;
@@ -153,9 +163,9 @@ nav div.navbar-button .sub-navbar:hover a.title {
 
 nav div.navbar-button .sub-navbar .sub-nav-content-grid {
     position: absolute;
-    width: 65%;
+    width: 100%;
     margin: 0;
-    left: calc((100% - 65%)/2);
+    left: 0;
     display: none;
     height: fit-content;
 }
@@ -208,7 +218,23 @@ nav div.navbar-button .sub-navbar .cards:hover p {
 
 
 nav div.navbar-button .sub-navbar .cards:hover {
-    
+
     color: red;
     box-shadow: 1px 1px 1px rgb(207, 207, 207);
+}
+
+/* ------------------------------------------------------------------------------------ */
+
+footer .banner .logo img {
+    width: fit-content;
+    height: 75px;
+    object-fit: cover;
+}
+
+footer .text {
+    align-items: center;
+}
+
+footer .text p {
+    margin: 0;
 }
