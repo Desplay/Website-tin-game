@@ -238,3 +238,11 @@ footer .text {
 footer .text p {
     margin: 0;
 }
+
+footer .tag-view {
+    width: 350px;
+}
+
+footer .banner {
+    margin:0 !important;
+}
