@@ -99,6 +99,7 @@ header div.search div.search-box input.search {
     border-radius: 10px 0px 0px 10px;
 }
 
+
 /* ------------------------------------------------------------------------------------ */
 
 nav.container-fluid {
@@ -133,6 +134,7 @@ nav div.navbar-button .sub-navbar:hover .sub-nav-content {
 }
 
 /* ------------------------------------------------------------------------------------ */
+<<<<<<< Updated upstream
 
 section.container-fluid {
     padding: 0 !important;
@@ -232,3 +234,5 @@ section.container-fluid {
     text-align: center;
     background-color: #fff;
 }
+=======
+>>>>>>> Stashed changes
