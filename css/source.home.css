@@ -1,0 +1,95 @@
+section {
+    padding: 0 !important;
+}
+
+.carousel {
+    width: 100% !important;
+}
+
+.carousel-caption {
+    width: 100%;
+    left: 0;
+}
+
+.carousel-item img{
+    height: 500px;
+    object-fit: cover;
+}
+
+.carousel-control-next, .carousel-control-prev {
+    width: 75px !important;
+}
+
+hr.line {
+    background-color: black;
+    border: none;
+    height: 1px;
+}
+
+hr.line-under-title {
+    background-color: #1ED760;
+    border-color: #1ED760;
+    height: 2.5px;
+    margin: 0;
+    opacity: 1;
+}
+
+.news-update {
+    padding: 0 !important;
+}
+
+.news-update>.title {
+    width: fit-content;
+    background-color: #1ED760;
+    padding: 5px 15px 1px 15px;
+}
+
+#first.items-news-update {
+    padding-top: 20px;
+}
+
+.items-news-update, .items-news-update {
+    overflow: auto;
+}
+
+.items-news-update img {
+
+    width: 250px;
+    height: 150px;
+    object-fit: cover;
+    float: left;
+}
+
+.items-news-update .content {
+    padding-left: 270px;
+}
+
+.items-news-update .content a>h5 {
+    color: black;
+}
+
+
+.items-news-update .content p {
+    color: rgb(100, 100, 100);
+    font-size: small;
+}
+
+.items-news-update .content b {
+    color: red;
+}
+
+.items-news-update .about {
+    float: right;
+    background-color: #1ED760;
+    padding: 5px 10px 5px 10px;
+    margin-top: 10px;
+    margin-right: 5px;
+}
+
+.items-news-update .about a {
+    color: black;
+}
+
+.items-news-update:hover a {
+    color: red;
+}
