@@ -1,19 +1,20 @@
 html {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: white;
+    background-color: whitesmoke;
 }
 
 body {
     margin: auto;
     width: 65%;
     height: 3000px;
+    background-color: whitesmoke;
 }
 
-div,
+/* div,
 ul,
 li {
     border: 1px solid black;
-}
+} */
 
 header {
     background-color: black;
