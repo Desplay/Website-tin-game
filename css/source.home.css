@@ -10,6 +10,10 @@ section {
     display: block;
 }
 
+.slide {
+    padding-top: 25px;
+}
+
 .carousel {
     width: 100% !important;
 }
