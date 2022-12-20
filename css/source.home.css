@@ -35,8 +35,9 @@ hr.line-under-title {
 }
 
 .news-update {
+    margin-top: 30px;
     padding: 0 !important;
-}
+}   
 
 .news-update>.title {
     width: fit-content;

@@ -9,11 +9,11 @@ body {
     height: 3000px;
 }
 
-div,
+/* div,
 ul,
 li {
     border: 1px solid black;
-}
+} */
 
 header {
     background-color: black;
@@ -33,7 +33,11 @@ section {
 }
 
 footer {
-    background-color: aqua;
+    margin-top: 20px;
+    padding-top: 50px;
+    background-color: #303030;
+    color: white;
+    padding-bottom: 50px;
 }
 
 ul {
@@ -45,6 +49,11 @@ ul {
 
 a {
     text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: red;
 }
 
 /* ------------------------------------------------------------------------------------ */
@@ -139,7 +148,7 @@ nav div.navbar-button {
     justify-content: center;
     box-sizing: unset;
 }
- 
+
 nav div.navbar-button a {
     padding: 0px 20px 0px 20px;
     height: 50px;
@@ -163,11 +172,12 @@ nav div.navbar-button .sub-navbar:hover a.title {
 
 nav div.navbar-button .sub-navbar .sub-nav-content-grid {
     position: absolute;
-    width: 100%;
+    width: calc(100% - 240px);
     margin: 0;
-    left: 0;
+    left: 120px;
     display: none;
     height: fit-content;
+    border-radius: 0px 0px 20px 20px;
 }
 
 
@@ -191,7 +201,7 @@ nav div.navbar-button .sub-navbar .cards {
 
 nav div.navbar-button .sub-navbar .card-news {
     padding: 0;
-    margin: 0px 30px;
+    margin: 0px 15px;
     height: calc(205.5px + 50px);
 }
 
@@ -220,15 +230,56 @@ nav div.navbar-button .sub-navbar .cards:hover p {
 nav div.navbar-button .sub-navbar .cards:hover {
 
     color: red;
-    box-shadow: 1px 1px 1px rgb(207, 207, 207);
 }
 
 /* ------------------------------------------------------------------------------------ */
 
-footer .banner .logo img {
+footer a {
+    color: whitesmoke;
+}
+
+footer .logo img {
     width: fit-content;
     height: 75px;
     object-fit: cover;
+}
+
+footer .div-logo {
+    height: fit-content;
+}
+
+footer .logo {
+    height: fit-content;
+}
+
+footer .items-news-footer {
+    
+    padding-bottom: 10px;
+}
+
+footer .items-news-footer img {
+    position: absolute;
+    width: 140px;
+    height: 75px;
+    object-fit: cover;
+}
+
+footer .items-news-footer .items-news-content {
+    padding-left: 150px;
+}
+
+footer .items-news-footer .items-news-content p {
+    margin: 0 !important;
+}
+
+footer .items-news-upload {
+    font-size: 12px;
+    color: #b4b4b4;
+}
+
+footer .text-title {
+    padding-top: 15px;
+    height: fit-content;
 }
 
 footer .text {
@@ -239,10 +290,38 @@ footer .text p {
     margin: 0;
 }
 
+footer .tag-view p {
+    margin: 0;
+    padding-left: 20px;
+    padding-right:20px;
+}
+
 footer .tag-view {
     width: 350px;
+    height: fit-content;
 }
 
 footer .banner {
-    margin:0 !important;
+    margin: 0 !important;
+}
+
+footer .contact hr {
+    width: calc(100% + 50px);
+}
+
+footer .contact {
+    margin-right: 50px;
+}
+
+footer .contact-title {
+    margin-bottom: 5px;
+}
+
+footer .contact-text, .contact hr {
+    margin-left: 5px;
+}
+
+footer .contact,
+.contact-text, .contact-title {
+    width: fit-content;
 }
