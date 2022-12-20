@@ -10,6 +10,10 @@ section {
     display: block;
 }
 
+.slide {
+    padding-top: 25px;
+}
+
 .carousel {
     width: 100% !important;
 }
@@ -144,8 +148,12 @@ section .content-box .title h6 {
     font-size: small;
 }
 
-.items-news-update .content b {
+.upload b {
     color: red;
+}
+
+.upload {
+    font-size: 12px;
 }
 
 .items-news-update:hover a h5 {
