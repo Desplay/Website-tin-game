@@ -7,8 +7,7 @@
     <link href="../Template/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
     <link href="../Template/fontawesome/css/all.min.css" rel="stylesheet" />
     <link href="../css/source.main.css" rel="stylesheet" />
-    <link href="../css/source.home.css" rel="stylesheet" />
-    <link href="../css/source.page1.css" rel="stylesheet" />
+    <link href="../css//source.home.css" rel="stylesheet" />
     <script src="../Template/jquery/jquery.min.js"></script>
     <script src="../Template/bootstrap/js/bootstrap.bundle.min.js"></script>
     <script src="../js/source.main.js"></script>
@@ -276,66 +275,289 @@
       </div>
     </nav>
     <section class="container-fluid">
-      <div class="top-content">
-        <div class="row table-contents">
-          <div class="col-md-6 card-items ">
-            <a href="#"><img src="../database/image/contentss/top-1.webp"></a>
+      <div id="SlideShow" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#SlideShow" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#SlideShow" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#SlideShow" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
             <a href="#">
-              <h2>
-                Năm 2022 in đậm dấu ấn của người khổng lồ Samsung trong khía cạnh bảo vệ môi trường
-              </h2>
+              <img src="../database/image/contents/Tin2.jpg" class="d-block w-100" alt="..." />
+              <div class="carousel-caption d-block">
+                <h4>Samsung công bố GDDR7 nhanh hơn thế hệ tiền nhiệm 50% nhờ công nghệ PAM-3</h4>
+                <p class="title"><b>Anonimus</b> - 19/12/2022</p>
+              </div>
             </a>
           </div>
-  
-          <div class="col-md-3">
-            <div class="row card-items">
-              <a href="#"><img src="../database/image/contentss/top-1.webp"></a>
-              <a href="#">
-                <h2>
-                  Party Animal ra mắt mùa xuân năm 2023
-                </h2>
-              </a>
+          <div class="carousel-item">
+            <a href="#">
+              <img src="../database/image/contents/Tin1.jpg" class="d-block w-100" alt="..." />
+              <div class="carousel-caption d-block">
+                <h4>The Game Awards 2022 phá vỡ loạt kỷ lục, trở thành chương trình trending số 1 thế giới với hơn 100 triệu...</h4>
+                <p class="title"><b>Anonimus</b> - 17/12/2022</p>
+              </div>
+            </a>
+          </div>
+          <div class="carousel-item">
+            <a href="#">
+              <img src="../database/image/contents/Tin3.jpg" class="d-block w-100" alt="..." />
+              <div class="carousel-caption d-block">
+                <h4>Xuất hiện công nghệ khử tiếng ồn giúp game thủ ăn bim bim mà vẫn giữ thể diện khi gọi online</h4>
+                <p class="title"><b>Anonimus</b> - 15/12/2022</p>
+              </div>
+            </a>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#SlideShow" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#SlideShow" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <div class="container-fluid row content-box">
+        <div class="container-fluid news-update">
+          <div class="title">
+            <h6>Mới cập nhật</h6>
+          </div>
+          <hr class="line-under-title" />
+          <div class="content-box container-fluid">
+            <div id="first" class="items-news-update">
+              <a href="#"><img src="../database/image/contents/Tin2.jpg" /></a>
+              <div class="content">
+                <a href="#"><h5>Samsung công bố GDDR7 nhanh hơn thế hệ tiền nhiệm 50% nhờ công nghệ PAM-3</h5></a>
+                <p class="upload"><b>Anonimus</b> - 19/12/2022</p>
+                <p>Với sự xuất hiện của chip VRAM GDDR7 nhà Samsung, các GPU thế hệ sau hứa hẹn sẽ có những bước nhảy hiệu năng khủng khiếp.</p>
+              </div>
+              <div class="about">
+                <a href="#">Công nghệ</a>
+              </div>
             </div>
-            <div class="row card-items">
-              <a href="#"><img src="../database/image/contentss/top-1.webp"></a>
-              <a href="#">
-                <h2>
-                  Party Animal ra mắt mùa xuân năm 2023
-                </h2>
-              </a>
+            <hr class="line" />
+            <div id="show" class="items-news-update">
+              <a href="#"><img src="../database/image/contents/Tin1.jpg" /></a>
+              <div class="content">
+                <a href="#"><h5>The Game Awards 2022 trở thành chương trình trending số 1 thế giới với hơn 100 triệu người xem</h5></a>
+                <p class="upload"><b>Anonimus</b> - 17/12/2022</p>
+                <p>Sự kiện The Game Awards vẫn chưa bao giờ hết hot, và năm 2022 đã chứng minh cho điều đó.</p>
+              </div>
+              <div class="about">
+                <a href="#">Tin game</a>
+              </div>
+            </div>
+            <hr class="line" />
+            <div id="show" class="items-news-update">
+              <a href="#"><img src="../database/image/contents/Tin3.jpg" /></a>
+              <div class="content">
+                <a href="#"><h5>Xuất hiện công nghệ khử tiếng ồn giúp game thủ ăn bim bim mà vẫn giữ thể diện khi gọi online</h5></a>
+                <p class="upload"><b>Anonimus</b> - 15/12/2022</p>
+                <p>Vừa ăn bim bim, vừa giữ được thể diện cho bản thân thì quá là tuyệt vời!</p>
+              </div>
+              <div class="about">
+                <a href="#">Công nghệ</a>
+              </div>
+            </div>
+            <hr id="hide" class="line" />
+            <div id="hide" class="items-news-update">
+              <a href="#"><img src="../database/image/contents/Tin5.jpg" /></a>
+              <div class="content">
+                <a href="#"><h5>Intel tuyên bố năm 2030 sẽ có chip chứa 1 nghìn tỷ bóng bán dẫn</h5></a>
+                <p class="upload"><b>Anonimus</b> - 14/12/2022</p>
+                <p>Chuyện Intel tạo ra được con chip chứa 1 nghìn tỷ bóng bán dẫn trong 8 năm nữa không phải là bất khả thi, nhưng nó cũng chẳng dễ dàng gì cả.</p>
+              </div>
+              <div class="about">
+                <a href="#">Công nghệ</a>
+              </div>
+            </div>
+            <hr id="hide" class="line" />
+            <div id="hide" class="items-news-update">
+              <a href="#"><img src="../database/image/contents/Tin4.jpg" /></a>
+              <div class="content">
+                <a href="#"><h5>Top 10 tựa game có thời lượng tuy dài nhưng chơi hoài mà chẳng thấy chán trong năm 2022</h5></a>
+                <p class="upload"><b>Anonimus</b> - 13/12/2022</p>
+                <p>Một trong những tiêu chí quan trọng khi chọn mua 1 tựa game nào đó là xem xem thời lượng của nó có tương xứng với số tiền bỏ ra hay không.</p>
+              </div>
+              <div class="about">
+                <a href="#">Tin game</a>
+              </div>
             </div>
           </div>
-          <div class="col-md-3">
-            <div class="row card-items">
-              <a href="#"><img src="../database/image/contentss/top-1.webp"></a>
-              <a href="#">
-                <h2>
-                  Party Animal ra mắt mùa xuân năm 2023
-                </h2>
-              </a>
+          <div class="loadmore"><button id="loadmore-btn" class="btn btn-link">xem thêm</button></div>
+        </div>
+        <div class="d-flex justify-content-between p-0">
+          <div class="col-md-5 sub-table">
+            <a href="#">
+              <div class="title">
+                <h6>Công nghệ</h6>
+              </div>
+            </a>
+            <hr class="line-under-title" />
+            <div id="first" class="sub-table-items">
+              <a href="#"><img src="../database/image/contents/Tin2.jpg" /></a>
+              <div class="content">
+                <a href="#"><h5>Samsung công bố GDDR7 nhanh hơn thế hệ tiền nhiệm 50% nhờ công nghệ PAM-3</h5></a>
+                <p class="upload"><b>Anonimus</b> - 19/12/2022</p>
+              </div>
             </div>
-            <div class="row card-items">
-              <a href="#"><img src="../database/image/contentss/top-1.webp"></a>
-              <a href="#">
-                <h2>
-                  Party Animal ra mắt mùa xuân năm 2023
-                </h2>
-              </a>
+            <div class="sub-table-items">
+              <a href="#"><img src="../database/image/contents/Tin3.jpg" /></a>
+              <div class="content">
+                <a href="#"><h5>Xuất hiện công nghệ khử tiếng ồn giúp game thủ ăn bim bim mà vẫn giữ thể diện khi gọi online</h5></a>
+                <p class="upload"><b>Anonimus</b> - 15/12/2022</p>
+              </div>
+            </div>
+            <div class="sub-table-items">
+              <a href="#"><img src="../database/image/contents/Tin5.jpg" /></a>
+              <div class="content">
+                <a href="#"><h5>Intel tuyên bố năm 2030 sẽ có chip chứa 1 nghìn tỷ bóng bán dẫn</h5></a>
+                <p class="upload"><b>Anonimus</b> - 14/12/2022</p>
+              </div>
+            </div>
+            <a href="#"><button class="btn btn-link">xem thêm</button></a>
+          </div>
+          <div class="col-md-5 sub-table">
+            <a href="#">
+              <div class="title">
+                <h6>Tin game</h6>
+              </div>
+            </a>
+            <hr class="line-under-title" />
+            <div id="first" class="sub-table-items">
+              <a href="#"><img src="../database/image/contents/Tin1.jpg" /></a>
+              <div class="content">
+                <a href="#"><h5>The Game Awards 2022 trở thành chương trình trending số 1 thế giới với hơn 100 triệu người xem</h5></a>
+                <p class="upload"><b>Anonimus</b> - 17/12/2022</p>
+              </div>
+            </div>
+            <div class="sub-table-items">
+              <a href="#"><img src="../database/image/contents/Tin4.jpg" /></a>
+              <div class="content">
+                <a href="#"><h5>Top 10 tựa game có thời lượng tuy dài nhưng chơi hoài mà chẳng thấy chán trong năm 2022</h5></a>
+                <p class="upload"><b>Anonimus</b> - 13/12/2022</p>
+              </div>
+            </div>
+            <div class="sub-table-items">
+              <a href="#"><img src="../database/image/contents/Tin2.jpg" /></a>
+              <div class="content">
+                <a href="#"><h5>Samsung công bố GDDR7 nhanh hơn thế hệ tiền nhiệm 50% nhờ công nghệ PAM-3</h5></a>
+                <p class="upload"><b>Anonimus</b> - 19/12/2022</p>
+              </div>
+            </div>
+            <a href="#"><button class="btn btn-link">xem thêm</button></a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="container-fluid">
+      <div class="banner container-fluid row">
+        <div class="col-md-4 container-fluid">
+          <div>
+            <h5><b>BÀI VIẾT ĐÃ XEM</b></h5>
+          </div>
+          <div class="content container-fluid">
+            <div id="first" class="items-news-footer">
+              <a href="#"><img src="../database/image/contents/Tin5.jpg" /></a>
+              <div class="items-news-content">
+                <a href="#"><p>Intel tuyên bố năm 2030 sẽ có chip ...</p></a>
+                <p class="items-news-upload">14/12/2022</p>
+              </div>
+            </div>
+            <hr />
+            <div class="items-news-footer">
+              <a href="#"><img src="../database/image/contents/Tin4.jpg" /></a>
+              <div class="items-news-content">
+                <a href="#"><p>Top 10 tựa game có thời lượng tuy dài nhưng ...</p></a>
+                <p class="items-news-upload">13/12/2022</p>
+              </div>
             </div>
           </div>
         </div>
-        <!-- <a href="#"><img class="img" src="../database/image/contentss/top-1.webp"></a> -->
-  
-      </div>
-  
-    <!-- <footer class="container-fluid">
-      <div class="banner container-fluid d-flex row">
-        <div class="col-auto logo"><img src="../database/image/logo.png" /></div>
-        <div class="col-auto d-flex align-items-center">
-          <div class="text">
-            <p>SPOTIFIVE: WEBSITE TIN TỨC GAME HÀNG ĐẦU VIỆT NAM</p></div>
+        <div class="col-md-4 container-fluid">
+          <div>
+            <h5><b>BÀI VIẾT TIÊU BIỂU</b></h5>
+          </div>
+          <div class="content container-fluid">
+            <div id="first" class="items-news-footer">
+              <a href="#"><img src="../database/image/contents/Tin2.jpg" /></a>
+              <div class="items-news-content">
+                <a href="#"><p>Samsung công bố GDDR7 nhanh hơn thế hệ ...</p></a>
+                <p class="items-news-upload">19/12/2022</p>
+              </div>
+            </div>
+            <hr />
+            <div class="items-news-footer">
+              <a href="#"><img src="../database/image/contents/Tin3.jpg" /></a>
+              <div class="items-news-content">
+                <a href="#"><p>Xuất hiện công nghệ khử tiếng ồn giúp ...</p></a>
+                <p class="items-news-upload">15/12/2022</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 d-flex justify-content-center">
+          <div class="w-auto">
+            <div class="row d-flex">
+              <h5 class="col"><b>MỤC XEM NHIỀU</b></h5>
+              <h5 class="col-auto float-end"><b>LƯỢT XEM</b></h5>
+            </div>
+            <ul class="row-auto">
+              <li>
+                <a class="tag-view row d-flex" href="#">
+                  <p class="col">CÔNG NGHỆ</p>
+                  <p class="col-auto float-end"><b>2000</b></p>
+                </a>
+              </li>
+              <li>
+                <a class="tag-view row d-flex" href="#">
+                  <p class="col">TIN GAME</p>
+                  <p class="col-auto float-end"><b>300</b></p>
+                </a>
+              </li>
+              <li>
+                <a class="tag-view row d-flex" href="#">
+                  <p class="col">ESPORTS</p>
+                  <p class="col-auto float-end"><b>20</b></p>
+                </a>
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
-    </footer> -->
+      <hr />
+      <div class="row d-flex justify-content-evenly align-items-center">
+        <div class="col-auto row div-logo d-flex align-items-center">
+          <div class="col-auto logo">
+            <img src="../database/image/logo.png" />
+          </div>
+          <div class="col-auto text-title">
+            <div class="text">
+              <h5><b>WEBSITE TIN TỨC GAME HÀNG ĐẦU VIỆT NAM</b></h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-row-auto contact">
+          <div class="row contact-title">
+            <h2><b>Contact</b></h2>
+          </div>
+          <div class="col text contact-text"><b>Email:</b> <a href="mailto:desplayshido@proton.me">desplayshido@proton.me</a></div>
+          <hr />
+          <div class="col-auto contact-text"><b>Phone:</b> <a href="tel:555555555">+55 555 555 555</a></div>
+          <hr />
+          <div class="col-auto contact-text">
+            <b>Address:</b>
+            <a
+              href="https://earth.google.com/web/search/Gharb+Binna,+Sudan/@12.36945494,23.32082916,800.12033385a,2360.39652066d,35y,0h,13.312623t,0r/data=CigiJgokCRSAxxrkakVAEXRD-LTiZipAGQzyBRlbZ1xAIfVVeCIJvk3A"
+              target="_blank"
+            >
+              Nhà A tòa B phố C khu D</a
+            >
+          </div>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
