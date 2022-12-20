@@ -57,7 +57,7 @@ hr.line-under-title {
     padding: 0 !important;
 }   
 
-.news-update>.title {
+section .title {
     width: fit-content;
     background-color: #1ED760;
     padding: 5px 15px 1px 15px;
