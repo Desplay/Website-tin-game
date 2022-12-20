@@ -2,6 +2,14 @@ section {
     padding: 0 !important;
 }
 
+#hide {
+    display: none;
+}
+
+#show {
+    display: block;
+}
+
 .carousel {
     width: 100% !important;
 }
@@ -9,6 +17,16 @@ section {
 .carousel-caption {
     width: 100%;
     left: 0;
+    text-align: start;
+    padding-left: 75px;
+}
+
+.carousel-caption p {
+    font-size: 12px;
+}
+
+.carousel-caption b {
+    color: red;
 }
 
 .carousel-item img{
@@ -79,18 +97,29 @@ hr.line-under-title {
     color: red;
 }
 
+.items-news-update:hover a h5 {
+    color: red;
+}
+
 .items-news-update .about {
+    width: 100px;
     float: right;
     background-color: #1ED760;
     padding: 5px 10px 5px 10px;
     margin-top: 10px;
     margin-right: 5px;
+    text-align: center;
 }
 
 .items-news-update .about a {
     color: black;
 }
 
-.items-news-update:hover a {
+.items-news-update .about:hover a {
     color: red;
+}
+
+.loadmore {
+    width: fit-content;
+    margin: auto;
 }
