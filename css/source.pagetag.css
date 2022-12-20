@@ -11,7 +11,7 @@ section.container-fluid {
 }
 
 
-.card-items, .col-md-6.card-items {
+.card-items, .col-md-6.card-items, .card-items-main {
     padding:0 !important;
     position: relative;
 
@@ -20,27 +20,33 @@ section.container-fluid {
     margin:0 !important;
 }
 
-.card-items a {
+.card-items a, .card-items-main a {
     padding: 0;
+} 
+
+img {
+    width: 100%;
 }
 
-.card-items img{
-    width:100%;
+.card-items-main img{
+    height: 400px;
     object-fit: cover;
     outline: 10px solid whitesmoke;
 }
 
-.card-items a h2{
+.card-items img {
+    height: 200px;
+    object-fit: cover;
+    outline: 10px solid whitesmoke;
+}
+
+.card-items a h2, .card-items-main a h2{
     color: white;
     font-size: 18px;
     bottom: 0;
     position: absolute;
     padding:0 10px 15px 15px;
-}
-
-.col-md-6.card-items h2 {
     left: 10px;
-    font: 700 25px Tahoma;
     right: 10px;
 }
 
