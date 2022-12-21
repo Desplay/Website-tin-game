@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Tin Công nghệ</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="../Template/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="../Template/fontawesome/css/all.min.css" rel="stylesheet" />
+    <link href="../css/source.main.css" rel="stylesheet" />
+    <link href="../css//source.pagetag.css" rel="stylesheet" />
+    <link href="../css//source.home.css" rel="stylesheet" />
+    <script src="../Template/jquery/jquery.min.js"></script>
+    <script src="../Template/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="../js/source.main.js"></script>
+  </head>
+  <body>
+    <header class="container-fluid">
+      <div class="row header-content">
+        <div class="container-fluid banner">
+          <img class="banner" src="../database/image/banner header.webp" />
+        </div>
+        <div class="container-fluid row align-items-center header-icon justify-content-center">
+          <div class="col-auto row logo">
+            <a class="col" href="./Menu.html">
+              <img class="logo" src="../database/image/Logo.png" />
+            </a>
+          </div>
+          <div class="col-auto content">
+            <h4 class="col title">WEBSITE VỀ TIN GAME</h4>
+          </div>
+          <div class="col-auto social-icons">
+            <ul class="row">
+              <li class="col icon">
+                <a href="https://store.steampowered.com/" target="_blank">
+                  <svg class="icon-svg" height="24" viewBox="0 0 24 24" width="24">
+                    <circle cx="12" cy="12" r="12"></circle>
+                    <path
+                      d="m18.22 8.9a2.269 2.269 0 1 1 -2.27-2.265 2.267 2.267 0 0 1 2.27 2.265zm2.258.005a4.534 4.534 0 0 1 -4.533 4.526h-.1l-4.087 2.911v.161a3.4 3.4 0 0 1 -6.74.669l-4.549-1.879c-.032-.109-.057-.219-.085-.329a11.973 11.973 0 0 1 -.384-2.964c0-.214.02-.423.032-.635 0-.1.008-.206.016-.308l6.394 2.643a3.385 3.385 0 0 1 1.915-.591c.065 0 .127 0 .191.005l2.865-4.145v-.062a4.533 4.533 0 0 1 9.066 0zm-9.763 6.618a2.55 2.55 0 0 0 -3.262-1.411l1.525.63a1.877 1.877 0 1 1 -1.446 3.464l-1.475-.606a2.529 2.529 0 0 0 1.315 1.25 2.559 2.559 0 0 0 3.339-1.374 2.526 2.526 0 0 0 .004-1.951zm8.251-6.618a3.021 3.021 0 1 0 -3.021 3.015 3.022 3.022 0 0 0 3.021-3.013z"
+                      fill="#fff"
+                    ></path></svg
+                ></a>
+              </li>
+              <li class="col icon">
+                <a href="https://www.facebook.com/" target="_blank">
+                  <svg class="icon-svg" height="24" viewBox="0 0 24 24" width="24">
+                    <circle cx="12" cy="12" fill="#3b5998" r="12"></circle>
+                    <path d="m13.079 19h-2.9v-7h-1.441v-2.408h1.442v-1.456c0-1.96.813-3.136 3.136-3.136h1.933v2.408h-1.2c-.91 0-.965.35-.965.966v1.218h2.183l-.257 2.408h-1.931z" fill="#fff"></path>
+                  </svg>
+                </a>
+              </li>
+              <li class="col icon">
+                <a href="https://twitter.com/home" target="_blank">
+                  <svg class="icon-svg" height="24" viewBox="0 0 24 24" width="24">
+                    <circle cx="12" cy="12" fill="#73b4ff" r="12"></circle>
+                    <path
+                      d="m19.5 7.425a6.228 6.228 0 0 1 -1.77.465 2.979 2.979 0 0 0 1.35-1.665 6.234 6.234 0 0 1 -1.95.735 3.088 3.088 0 0 0 -5.325 2.07 3.021 3.021 0 0 0 .075.69 8.789 8.789 0 0 1 -6.33-3.165 2.985 2.985 0 0 0 -.42 1.53 3.016 3.016 0 0 0 1.37 2.52 3.082 3.082 0 0 1 -1.394-.39v.045a3.049 3.049 0 0 0 2.474 2.97 3.418 3.418 0 0 1 -1.4.06 3.076 3.076 0 0 0 2.881 2.1 6.233 6.233 0 0 1 -4.561 1.245 8.811 8.811 0 0 0 4.725 1.365 8.622 8.622 0 0 0 8.745-8.625v-.39a6.231 6.231 0 0 0 1.53-1.56z"
+                      fill="#fff"
+                    ></path>
+                  </svg>
+                </a>
+              </li>
+              <li class="col icon">
+                <a href="https://www.youtube.com/" target="_blank">
+                  <svg class="icon-svg" height="24" viewBox="0 0 24 24" width="24">
+                    <circle cx="12" cy="12" fill="#cd201f" r="12"></circle>
+                    <path
+                      d="m19.351 8.978a3.281 3.281 0 0 0 -.6-1.5 2.081 2.081 0 0 0 -1.5-.645c-2.101-.15-5.251-.15-5.251-.15h-.016s-3.134 0-5.25.149a2.19 2.19 0 0 0 -1.485.645 3.275 3.275 0 0 0 -.6 1.5 22.8 22.8 0 0 0 -.15 2.445v1.139a22.854 22.854 0 0 0 .15 2.446 3.263 3.263 0 0 0 .6 1.5 2.437 2.437 0 0 0 1.65.645c1.2.12 5.1.165 5.1.165s3.149 0 5.249-.165a2.072 2.072 0 0 0 1.5-.645 3.268 3.268 0 0 0 .6-1.5 23 23 0 0 0 .149-2.446v-1.138a22.949 22.949 0 0 0 -.146-2.445zm-9.331 5.549v-5.127l4.8 2.52z"
+                      fill="#fff"
+                    ></path>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-auto search row">
+            <div class="col-auto search-box">
+              <input class="search form-control shadow-none" placeholder="Tìm kiếm..." />
+            </div>
+            <div class="col-auto search-icon">
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <nav class="container-fluid">
+      <div class="col navbar-button">
+        <div class="sub-navbar">
+          <a href="./Menu.html" class="title"><b>TRANG CHỦ</b></a>
+        </div>
+        <div class="sub-navbar">
+          <a href="./PageCongNghe.html" class="title"><b>CÔNG NGHỆ</b>&nbsp;<i class="fa-sharp fa-solid fa-chevron-down"></i></a>
+          <div class="sub-nav-content-grid row">
+            <div class="sub-nav-content d-flex justify-content-center">
+              <div class="cards">
+                <a class="col-auto card-news" href="./tin_cong_nghe_2.html">
+                  <div>
+                    <img class="news-image" src="../database/image/contents/Tin2.jpg" />
+                    <p class="title">
+                      Samsung công bố GDDR7 <br />
+                      nhanh hơn thế hệ tiền...
+                    </p>
+                  </div>
+                </a>
+              </div>
+              <div class="cards">
+                <a class="col-auto card-news" href="./tin_cong_nghe_5.html">
+                  <div>
+                    <img class="news-image" src="../database/image/contents/tin_cong_nghe_5/apple-car-automotor-1670386831598693230444-1670398184228-167039818436693212603.webp" />
+                    <p class="title">
+                      Dự án xe điện tự lái của<br />
+                      Apple đang gặp...
+                    </p>
+                  </div>
+                </a>
+              </div>
+              <div class="cards">
+                <a class="col-auto card-news" href="./tin_cong_nghe_1.html">
+                  <div>
+                    <img class="news-image" src="../database/image/contents/Tin3.jpg" />
+                    <p class="title">
+                      Xuất hiện công nghệ khử <br />
+                      tiếng ồn giúp game thủ...
+                    </p>
+                  </div>
+                </a>
+              </div>
+              <div class="cards">
+                <a class="col-auto card-news" href="./tin_cong_nghe_3.html">
+                  <div>
+                    <img class="news-image" src="../database/image/contents/Tin5.jpg" />
+                    <p class="title">
+                      Intel tuyên bố năm 2030 <br />
+                      sẽ có chip chứa...
+                    </p>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="sub-navbar">
+          <a href="./PageTinGame.html" class="title"><b>TIN GAME</b>&nbsp;<i class="fa-sharp fa-solid fa-chevron-down"></i></a>
+          <div class="sub-nav-content-grid row">
+            <div class="sub-nav-content d-flex justify-content-center">
+              <div class="cards">
+                <a class="col-auto card-news" href="./tin_game_1.html">
+                  <div>
+                    <img class="news-image" src="../database/image/contents/tin_game_1/1089259.jpg" />
+                    <p class="title">
+                      Huyền thoại Diablo 4 sẽ <br />
+                      trình diện game thủ vào...
+                    </p>
+                  </div>
+                </a>
+              </div>
+              <div class="cards">
+                <a class="col-auto card-news" href="./tin_game_2.html">
+                  <div>
+                    <img class="news-image" src="../database/image/contents/tin_game_2/651-1068x580.jpg" />
+                    <p class="title">
+                      Lộ tin Rainbow Six Siege<br />
+                      chơi bài độc: Cập nhật...
+                    </p>
+                  </div>
+                </a>
+              </div>
+              <div class="cards">
+                <a class="col-auto card-news" href="./tin_game_3.html">
+                  <div>
+                    <img class="news-image" src="../database/image/contents/tin_game_3/AC6-Announced_12-08-22-768x432.jpg" />
+                    <p class="title">
+                      Tựa game tiếp theo của <br />
+                      FromSoftware sẽ là...
+                    </p>
+                  </div>
+                </a>
+              </div>
+              <div class="cards">
+                <a class="col-auto card-news" href="./tin_game_4.html">
+                  <div>
+                    <img class="news-image" src="../database/image/contents/tin_game_4/ezgif-3-46ff8d2d60.jpg" />
+                    <p class="title">
+                      The Game Awards 2022 <br />
+                      phá vỡ loạt kỷ lục ...
+                    </p>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="sub-navbar">
+          <a href="./PageEsports.html" class="title"><b>ESPORTS</b>&nbsp;<i class="fa-sharp fa-solid fa-chevron-down"></i></a>
+          <div class="sub-nav-content-grid row">
+            <div class="sub-nav-content d-flex justify-content-center">
+              <div class="cards">
+                <a class="col-auto card-news" href="./tin_esport_1.html">
+                  <div>
+                    <img class="news-image" src="../database/image/contents/tin_esport_1/07d081ab8eb1e1070c4bc3df7a1949bc015dc2b1fe1da8257bffcaf557.jpg" />
+                    <p class="title">Báo Trung thừa nhận <br />Esports Trung Quốc ...</p>
+                  </div>
+                </a>
+              </div>
+              <div class="cards">
+                <a class="col-auto card-news" href="./tin_esport_2.html">
+                  <div>
+                    <img class="news-image" src="../database/image/contents/tin_esport_2/bad95bdc122df3246bab0dcde502f2890e7a3a3b0a38d606086774b032_1.jpg" />
+                    <p class="title">
+                      LMHT: LPL và LCK đã có <br>
+                      những phi vụ chuyển...
+                    </p>
+                  </div>
+                </a>
+              </div>
+              <div class="cards">
+                <a class="col-auto card-news" href="./tin_esport_3.html">
+                  <div>
+                    <img class="news-image" src="../database/image/contents/tin_esport_3/1_12.jpg" />
+                    <p class="title">LMHT: Các đội LCK đã<br /> chốt xong đội hình chính...</p>
+                  </div>
+                </a>
+              </div>
+              <div class="cards">
+                <a class="col-auto card-news" href="./tin_esport_4.html">
+                  <div>
+                    <img class="news-image" src="../database/image/contents/tin_esport_4/4_6.jpg" />
+                    <p class="title">
+                      LMHT: WBG bắt đầu chặng <br />
+                      đường mới với đội hình...
+                    </p>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <section class="container-fluid">
+      <div class="top-content">
+        <div class="row table-contents">
+          <div class="col-md-6 card-items-main">
+            <a href="#"><img src="../database/image/contents/tin_esport_1/07d081ab8eb1e1070c4bc3df7a1949bc015dc2b1fe1da8257bffcaf557.jpg" /></a>
+            <a href="#">
+              <h2>Báo Trung thừa nhận Esports Trung Quốc đã có một năm đáng quên</h2>
+            </a>
+          </div>
+          <div class="col-md-3">
+            <div class="row card-items">
+              <a href="#"><img src="../database/image/contents/tin_esport_2/bad95bdc122df3246bab0dcde502f2890e7a3a3b0a38d606086774b032_1.jpg" /></a>
+              <a href="#">
+                <h2>LMHT: LPL và LCK đã có những phi vụ chuyển nhượng bom tấn nào?</h2>
+              </a>
+            </div>
+            <div class="row card-items">
+              <a href="#"><img src="../database/image/contents/tin_esport_3/1_12.jpg" /></a>
+              <a href="#">
+                <h2>LMHT: Các đội LCK đã chốt xong đội hình chính thức</h2>
+              </a>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="row card-items">
+              <a href="#"><img src="../database/image/contents/tin_esport_4/4_6.jpg" /></a>
+              <a href="#">
+                <h2>LMHT: WBG bắt đầu chặng đường mới với đội hình mới toanh?</h2>
+              </a>
+            </div>
+            <div class="row card-items">
+              <a href="#"><img src="../database/image/contents/tin_esport_5/MSI-435x245.jpg" /></a>
+              <a href="#">
+                <h2>Tin đồn: MSI được tổ chức tại Anh còn CKTG sẽ diễn ra tại Hàn Quốc?</h2>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="content-table row">
+        <div class="col-md-9 row d-flex justify-content-evenly">
+          <div class="col-md-5 item-table">
+            <a href="./tin_esport_1.html"><img src="../database/image/contents/tin_esport_1/07d081ab8eb1e1070c4bc3df7a1949bc015dc2b1fe1da8257bffcaf557.jpg" /></a>
+            <a href="./tin_esport_1.html">
+              <h5>Báo Trung thừa nhận Esports Trung Quốc đã có một năm đáng quên</h5>
+            </a>
+            <p class="upload"><b>Anonymus</b> - 20/12/2022</p>
+          </div>
+          <div class="col-md-5 item-table">
+            <a href="./tin_esport_2.html"><img src="../database/image/contents/tin_esport_2/bad95bdc122df3246bab0dcde502f2890e7a3a3b0a38d606086774b032_1.jpg" /></a>
+            <a href="./tin_esport_2.html">
+              <h5>LMHT: LPL và LCK đã có những phi vụ chuyển nhượng bom tấn nào?</h5>
+            </a>
+            <p class="upload"><b>Anonymus</b> - 20/12/2022</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="container-fluid">
+      <div class="banner container-fluid row">
+        <div class="col-md-4 container-fluid">
+          <div>
+            <h5><b>BÀI VIẾT ĐÃ XEM</b></h5>
+          </div>
+          <div class="content container-fluid">
+            <div id="first" class="items-news-footer">
+              <a href="./tin_cong_nghe_3.html"><img src="../database/image/contents/Tin5.jpg" /></a>
+              <div class="items-news-content">
+                <a href="./tin_cong_nghe_3.html"><p>Intel tuyên bố năm 2030 sẽ có chip ...</p></a>
+                <p class="items-news-upload">14/12/2022</p>
+              </div>
+            </div>
+            <hr />
+            <div class="items-news-footer">
+              <a href="#none"><img src="../database/image/contents/Tin4.jpg" /></a>
+              <div class="items-news-content">
+                <a href="#none"><p>Top 10 tựa game có thời lượng tuy dài nhưng ...</p></a>
+                <p class="items-news-upload">13/12/2022</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 container-fluid">
+          <div>
+            <h5><b>BÀI VIẾT TIÊU BIỂU</b></h5>
+          </div>
+          <div class="content container-fluid">
+            <div id="first" class="items-news-footer">
+              <a href="./tin_cong_nghe_2.html"><img src="../database/image/contents/Tin2.jpg" /></a>
+              <div class="items-news-content">
+                <a href="./tin_cong_nghe_2.html"><p>Samsung công bố GDDR7 nhanh hơn thế hệ ...</p></a>
+                <p class="items-news-upload">19/12/2022</p>
+              </div>
+            </div>
+            <hr />
+            <div class="items-news-footer">
+              <a href="./tin_cong_nghe_1.html"><img src="../database/image/contents/Tin3.jpg" /></a>
+              <div class="items-news-content">
+                <a href="./tin_cong_nghe_1.html"><p>Xuất hiện công nghệ khử tiếng ồn giúp ...</p></a>
+                <p class="items-news-upload">15/12/2022</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 d-flex justify-content-center">
+          <div class="w-auto">
+            <div class="row d-flex">
+              <h5 class="col"><b>MỤC XEM NHIỀU</b></h5>
+              <h5 class="col-auto float-end"><b>LƯỢT XEM</b></h5>
+            </div>
+            <ul class="row-auto">
+              <li>
+                <a class="tag-view row d-flex" href="./PageCongNghe.html">
+                  <p class="col">CÔNG NGHỆ</p>
+                  <p class="col-auto float-end"><b>2000</b></p>
+                </a>
+              </li>
+              <li>
+                <a class="tag-view row d-flex" href="./PageTinGame.html">
+                  <p class="col">TIN GAME</p>
+                  <p class="col-auto float-end"><b>300</b></p>
+                </a>
+              </li>
+              <li>
+                <a class="tag-view row d-flex" href="./PageEsports.html">
+                  <p class="col">ESPORTS</p>
+                  <p class="col-auto float-end"><b>20</b></p>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <hr />
+      <div class="row d-flex justify-content-evenly align-items-center">
+        <div class="col-auto row div-logo d-flex align-items-center">
+          <div class="col-auto logo">
+            <img src="../database/image/logo.png" />
+          </div>
+          <div class="col-auto text-title">
+            <div class="text">
+              <h5><b>WEBSITE TIN TỨC GAME HÀNG ĐẦU VIỆT NAM</b></h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-row-auto contact">
+          <div class="row contact-title">
+            <h2><b>Contact</b></h2>
+          </div>
+          <div class="col text contact-text"><b>Email:</b> <a href="mailto:desplayshido@proton.me">desplayshido@proton.me</a></div>
+          <hr />
+          <div class="col-auto contact-text"><b>Phone:</b> <a href="tel:555555555">+55 555 555 555</a></div>
+          <hr />
+          <div class="col-auto contact-text">
+            <b>Address:</b>
+            <a
+              href="https://earth.google.com/web/search/Gharb+Binna,+Sudan/@12.36945494,23.32082916,800.12033385a,2360.39652066d,35y,0h,13.312623t,0r/data=CigiJgokCRSAxxrkakVAEXRD-LTiZipAGQzyBRlbZ1xAIfVVeCIJvk3A"
+              target="_blank"
+            >
+              Nhà A tòa B phố C khu D</a
+            >
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
