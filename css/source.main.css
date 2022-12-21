@@ -1,12 +1,14 @@
 html {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: whitesmoke;
 }
 
 body {
     margin: auto;
-    width: 65%;
-    background-color: whitesmoke;
+    background-color: white;
+}
+
+section {
+    width: 65% !important;
 }
 
 /* div,
@@ -33,11 +35,12 @@ section {
 }
 
 footer {
-    margin-top: 20px;
-    padding-top: 50px;
-    background-color: #303030;
+    padding-top: 60px;
+    background-color: #252525;
     color: white;
     padding-bottom: 50px;
+    padding-left: calc(35% / 2) !important;
+    padding-right: calc(35% / 2) !important;
 }
 
 ul {
@@ -81,18 +84,18 @@ header div.content {
 
 header img.banner {
     width: 100%;
-    height: 175px;
+    height: 250px;
     object-fit: cover;
 }
 
 header img.logo {
     padding-left: 10px;
     padding-right: 10px;
-    left: 20px;
-    top: 150px;
+    left: 350px;
+    top: 195px;
     position: absolute;
     width: fit-content;
-    height: 75px;
+    height: 101px;
     object-fit: cover;
     background-color: black;
 }
@@ -172,14 +175,13 @@ nav div.navbar-button .sub-navbar:hover a.title {
 
 nav div.navbar-button .sub-navbar .sub-nav-content-grid {
     position: absolute;
-    width: calc(100% - 240px);
+    width: calc(65% - 240px);
     margin: 0;
-    left: 120px;
+    left: calc(24% - 10px);
     display: none;
     height: fit-content;
     border-radius: 0px 0px 20px 20px;
 }
-
 
 nav div.navbar-button .sub-navbar:hover .sub-nav-content-grid {
     display: flex;
@@ -253,7 +255,7 @@ footer .logo {
 }
 
 footer .items-news-footer {
-    
+
     padding-bottom: 10px;
 }
 
@@ -293,7 +295,7 @@ footer .text p {
 footer .tag-view p {
     margin: 0;
     padding-left: 20px;
-    padding-right:20px;
+    padding-right: 20px;
 }
 
 footer .tag-view {
@@ -317,11 +319,13 @@ footer .contact-title {
     margin-bottom: 5px;
 }
 
-footer .contact-text, .contact hr {
+footer .contact-text,
+.contact hr {
     margin-left: 5px;
 }
 
 footer .contact,
-.contact-text, .contact-title {
+.contact-text,
+.contact-title {
     width: fit-content;
 }
