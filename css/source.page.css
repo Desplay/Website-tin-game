@@ -1,0 +1,105 @@
+section{
+    font-size: 18px;
+}
+
+div.page-header div {
+    font-size: 15px;
+}
+
+.title{
+    color: rgb(0, 0, 0);
+}
+
+img.img-fluid {
+    width: 100% !important;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.page-section {
+    margin-bottom: 50px;
+    margin-top:50px;
+}
+
+
+
+
+
+
+div .page-comment input,
+div .page-comment textarea {
+    border: 2px solid rgb(172, 172, 172);
+    border-radius: 8px;
+}
+
+div .page-comment textarea{
+    width: 100%;
+}
+
+div .page-comment button {
+    border-radius: 8px;
+    border: 2px solid black;
+    background-color: #1ED760;
+    color:aliceblue;
+    padding: 3px 15px 3px 15px;
+}
+
+div .page-comment .cmt{
+    margin-bottom: 50px;
+    
+}
+
+div .page-comment hr{
+    color: black;
+}
+
+.cmt-box{
+    width: 90%;
+    margin-left: auto;
+    margin-bottom: 40px;
+}
+.page-comment{
+    margin-top: 150px;
+}
+
+
+
+
+div.like{
+    margin: 0 auto;
+}
+
+img.like{
+    width: 2.5%;
+}
+
+section img{
+    margin-bottom: 20px;
+}
+
+
+
+
+div .next-previous{
+    margin: 20px;
+}
+
+small{
+    padding-left:15px;
+}
+
+.news-source{
+    margin-top: 60px;
+    font-size:16px;
+    
+}
+
+.list_nomal{
+    list-style-type:unset; 
+    padding-left: 50px;;
+}
+
+iframe{
+    width: 80%;
+    height: 500px;
+}
