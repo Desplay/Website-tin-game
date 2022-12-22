@@ -1,4 +1,4 @@
-section{
+section {
     font-size: 18px;
 }
 
@@ -6,7 +6,7 @@ div.page-header div {
     font-size: 15px;
 }
 
-.title{
+.title {
     color: rgb(0, 0, 0);
 }
 
@@ -18,12 +18,8 @@ img.img-fluid {
 
 .page-section {
     margin-bottom: 50px;
-    margin-top:50px;
+    margin-top: 50px;
 }
-
-
-
-
 
 
 div .page-comment input,
@@ -32,7 +28,7 @@ div .page-comment textarea {
     border-radius: 8px;
 }
 
-div .page-comment textarea{
+div .page-comment textarea {
     width: 100%;
 }
 
@@ -40,66 +36,78 @@ div .page-comment button {
     border-radius: 8px;
     border: 2px solid black;
     background-color: #1ED760;
-    color:aliceblue;
+    color: aliceblue;
     padding: 3px 15px 3px 15px;
 }
 
-div .page-comment .cmt{
+div .page-comment .cmt {
     margin-bottom: 50px;
-    
+
 }
 
-div .page-comment hr{
+div .page-comment hr {
     color: black;
 }
 
-.cmt-box{
+.cmt-box {
     width: 90%;
     margin-left: auto;
     margin-bottom: 40px;
 }
-.page-comment{
+
+.page-comment {
     margin-top: 150px;
 }
 
 
 
 
-div.like{
+div.like {
     margin: 0 auto;
 }
 
-img.like{
+img.like {
     width: 2.5%;
 }
 
-section img{
+section img {
     margin-bottom: 20px;
 }
 
 
 
 
-div .next-previous{
+div .next-previous {
     margin: 20px;
 }
 
-small{
-    padding-left:15px;
+small {
+    padding-left: 15px;
 }
 
-.news-source{
+.news-source {
     margin-top: 60px;
-    font-size:16px;
-    
+    font-size: 16px;
+
 }
 
-.list_nomal{
-    list-style-type:unset; 
-    padding-left: 50px;;
+.list_nomal {
+    list-style-type: unset;
+    padding-left: 50px;
+    ;
 }
 
-iframe{
+iframe {
     width: 80%;
     height: 500px;
+}
+
+.comment-line h5 i {
+    font-size: 15px;
+    color: #606060;
+}
+
+.comment-line h5 p {
+    font-size: 15px;
+    color: #606060;
 }
