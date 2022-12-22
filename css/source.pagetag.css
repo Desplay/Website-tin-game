@@ -7,7 +7,7 @@ section.container-fluid {
 .top-content {
     width: 100%;
     display: block;
-    margin-top: 3rem;
+    margin-top: 2rem;
 }
 
 
@@ -17,7 +17,7 @@ section.container-fluid {
 
 }
 .table-contents {
-    margin:0 !important;
+    margin: 0 !important;
 }
 
 .card-items a, .card-items-main a {
