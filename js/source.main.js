@@ -48,11 +48,19 @@ function getComment() {
     name: document.getElementById("name").value,
     cmt: document.getElementById("cmt").value,
   };
+  if (temp.cmt === "") return alert("Hãy nhập bình luận");
+  if (temp.name === "") return alert("Hãy nhập tên để được bình luận");
+  
   data.push(temp);
-  if (data[data.length - 1].cmt === "") return alert("Hãy nhập bình luận");
-  if (data[data.length - 1].name === "") return alert("Hãy nhập tên để được bình luận");
+  
   createCMT(data[data.length - 1]);
   getNumComment();
+  Reset();
+}
+
+function Reset() {
+  document.getElementById("name").value = "";
+  document.getElementById("cmt").value = "";
 }
 
 function getNumComment() {
